@@ -542,8 +542,20 @@ a img {
 ------------------------------------------------------------------------------*/
 
 .wrapper {
-	max-width: 980px;
-	margin: 0 auto;
+	max-width: 80%;
+  margin: 0 auto;
+}
+
+.normal{
+  margin-bottom: 4cm;
+}
+
+.normal img{
+  width: 600px;
+}
+
+.textwrapper{
+  max-width: 600px;
 }
 
 .wrapper:before, .wrapper:after {
