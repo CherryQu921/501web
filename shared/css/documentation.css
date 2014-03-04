@@ -555,6 +555,10 @@ a img {
   width: 600px;
 }
 
+.normal p{
+  max-width: 600px;
+}
+
 .textwrapper{
   max-width: 600px;
 }
