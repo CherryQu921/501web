@@ -276,15 +276,14 @@ a img {
 
 #header-wrapper {
   margin-bottom: 0;
-  clear: both;
   height: 61px;
-  background: url(../images/header.png) 0 0 repeat-x;
 }
 
 #header {
-  margin: 0 auto;
-  max-width: 980px;
-  position: relative;
+  position: fixed;
+  height: 61px;
+  width: 100%;
+  background: url(../images/header.png) 0 0 repeat-x;
 }
 
 #header .logo {
@@ -299,7 +298,7 @@ a img {
 
 #header .nav {
   position: absolute;
-  right: 0;
+  left: 10%;
   top: 20px;
   font-weight: bold;
   text-shadow: white 1px 1px 0px;
