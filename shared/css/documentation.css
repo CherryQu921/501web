@@ -284,6 +284,7 @@ a img {
   height: 61px;
   width: 100%;
   background: url(../images/header.png) 0 0 repeat-x;
+  z-index:999;
 }
 
 #header .logo {
