@@ -33,37 +33,86 @@
     </div>
   </div><!-- #header -->
 </div><!-- #header-wrapper -->
-	
-  <div class="wrapper">
-	<h1>Coordination Theory</h1>
-	<p>Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah Blah</p>
 
+<div class="wrapper">
+  <h1>Coodination Theory</h1>
+  <p>Coordination Theory is an interdisciplinary study of coordination on ways people works together. Derived from the similar collaboration problems that different fields have been dealing separately, the Coordination Theory shows the relationships between different views of coordination.</p>
   <ul id="bootcamp">
       <li>
-        <a href="./activitytheory.html">
-          <img alt="Set up git" src="./shared/images/set-up-git-86c7e33474f42b08aa14bafb6501b9f8.gif" />
-          <h4>Set Up Git</h4>
-        </a>
-      </li>
-      <li>
-        <a href="./activitytheory.html">
-          <img alt="Create a repo" src="./shared/images/create-a-repo-ebb9781bef87d00a347dd6c7dd44ff05.gif" />
-          <h4>Create A Repo</h4>
-        </a>
-      </li>
-      <li>
-        <a href="./activitytheory.html">
-          <img alt="Fork a repo" src="./shared/images/fork-a-repo-e50d51c694939c58b2f83c58fc679c4e.gif" />
-          <h4>Fork A Repo</h4>
-        </a>
-      </li>
-      <li>
-        <a href="./activitytheory.html">
-          <img alt="Be social" src="./shared/images/be-social-b0ba03fd73e7a099edceaecaf61233e1.gif" />
-          <h4>Be Social</h4>
-        </a>
-      </li>
-  </ul>
+	<h3>Coordination Theory and GitHub</h3>
+          <p>From the lens of Coordination Theory we can have a better understanding of how programmers collaborate on projects on GitHub. There are three important of section within the framework of Coordination Theory:</p>
+          <ul>
+  		<li>
+                  <h5>The Components of Coordination</h5>
+                  <p>It decomposes the coordination process by breaking associated components into goals, activities, actors and interdependencies.</p>
+       		</li>
+		<li><img src="images/CT_Components.png" width="920" height="711" alt=""/></li>
+              	<li>
+                  <h5>The Types of Interdependencies</h5>
+                  <p>By interdependencies it means the goal-relevant relationships between the activities, as activities are dependent on each other’s success in a collaborative environment. There are three main kinds of interdependencies – prerequisite, simultaneity and shared resource.</p>
+		  <p>The prerequisite describes the situation that the output of one activity is required by the next activity.</p>
+                  <img src="images/CT_Inter_Prerequire.png"/>
+                  <p>The simultaneity occurs when multiple activities should be synchronized, occurring at the same time.</p>
+                  <img src="images/CT_Inter_Simultaneity.png"/>
+                  <p>The shared resource is the situation that resources are required by multiple activities.</p>
+                  <img src="images/CT_Inter_Shareresources.jpg"/>
+                  <p>In GitHub, the source codes are shared on the repository as the shared resource that all the actors (programmers, project manager) can access. Only those who are authorized are permitted to edit it.</p>
+                </li>
+                <li>
+          	  <h4>The Process Underlying Coordination</h4>
+          	  <p>The Coordination theory posits a hierarchy of the coordination process. At the beginning (bottom of the hierarchy), actors have to develop the perception of common objects, for example, the shared sources; then, they can communicate with each other to make group decision to manage interdependencies.</p>
+      	        </li>
+      	  </ul>
+     </li>
+      
+      
+     <li>
+     	<h3>Applied Coordination Theory to the Scenario</h3>
+        <p>In this scenario, we can list out all the components of coordination:<p>
+        <ul>
+		<li>Goals: The outcome of the project</li>
+              	<li> Actors: Programmers (Allen, Daniel, Jason); Project Manager (Tim) </li>
+           	<li>Activities:
+			<ol class="interden">
+                    		<li>Divide the workload into <a href="http://www.youtube.com/watch?v=TJlYiMp8FuY">issues </a>and assign tasks</li>
+                    		<iframe width="640" height="360" src="//www.youtube.com/embed/TJlYiMp8FuY" frameborder="0" allowfullscreen></iframe>
+				<li>Three programmers work on three issues separately</li>
+				<li>All of them <a href="https://help.github.com/articles/pushing-to-a-remote">push</a> their codes onto GitHub during the process</li>
+				<li><a href="https://help.github.com/articles/merging-branches"/>Merge three branches of issues</a></li>
+                    		<img src="images/CT_Merge.png"/>
+                    		<li>Remove <a href="https://help.github.com/articles/resolving-merge-conflicts">conflicts in codes</a></li>
+                	</ol>
+		</li>
+         </ul>
+            
+         <p>We can also see these three types of interdependencies:</p>
+         	<ul>
+            		<li><p>Prerequisite</p>
+                		<ol class="interden">
+                			<li>Tim should break down the workload and assign the tasks to each programmer before they get started.</li>
+                	 		<li>Tim could not monitor the progress until Allen, Daniel and Jason pushed their parts onto GitHub.</li>
+                  			<li>Allen waited for Jason to finish his issues so that he could merge the two branches. Daniel kept waiting until Allen combined Jason and his issues.</li>
+                  			<li>Allen had to remove the conflicts in Jason’s and his codes before handing the merged branches to Daniel.</li>
+                		</ol>
+               		</li>
+               
+               		<li><p>Shared Resources</p>
+               			<img src="images/CT_SharedSource.png"/>
+               			<ol class="interden">
+                			<li>The three programmers shared the documentation in which the project goals and development guidance are claimed.</li>
+                      			<li>The team shared all the codes (throughout the implementing process)</li>
+                      			<li>The three programmers shared their own process (by pushing what they have finished onto GitHub) so that the others knew how was going on the other side, to adjusting his pace (to speed up to catch up with the progress or to slow down).</li>
+                  		</ol>
+        		</li>
+               
+               		<li><p>Simultaneity</p>
+               			<ol class="interden">
+                			<li>Allen, Jason and Daniel worked on their own issues simultaneously, and their process were shared (though not real-time, right after they finished their parts)</li>
+                  		</ol>
+               		</li>
+               </ul> 	
+      	  </li>
+     </ul>
 </div>
 
 		
