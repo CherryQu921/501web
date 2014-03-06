@@ -555,6 +555,10 @@ a img {
   width: 600px;
 }
 
+.normal .small{
+  width: 200px;
+}
+
 .normal p{
   max-width: 600px;
 }
